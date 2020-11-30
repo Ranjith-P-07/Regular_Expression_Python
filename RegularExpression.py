@@ -16,7 +16,7 @@ if __name__ == '__main__':
     name_pattern = "^[A-Z]{1}[a-z]{3,}$"
     email_pattern = "^[0-9a-zA-Z]+([._+-][0-9a-zA-Z]+)*@[0-9a-zA-Z]+.[a-zA-Z]{2,3}([.][a-zA-Z]{2})*$"
     phone_number_pattern = "^91 [0-9]{10}$"
-    password_pattern = "^(?=.*[A-Z]).{8,}$"
+    password_pattern = "^(?=.*[A-Z])(?=.*[0-9]).{8,}$"
 
     first_name = input("Enter the First Name : ")
     print(user.validation(name_pattern, first_name))

@@ -2,7 +2,7 @@
 import re
 
 pattern = "^[A-Z]{1}[a-z]{3,}$"
-user_input = input("Enter your Pattern : ")
+user_input = input("Enter your First Name : ")
 
 if re.search(pattern, user_input):
     print("Valid First Name ")

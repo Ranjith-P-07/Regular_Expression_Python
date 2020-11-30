@@ -14,7 +14,11 @@ class UserRegestration:
 if __name__ == '__main__':
     user = UserRegestration()
     name_pattern = "^[A-Z]{1}[a-z]{3,}$"
+<<<<<<< HEAD
     first_name = input("Enter the First Name :")
+=======
+    first_name = input("Enter the First Name : ")
+>>>>>>> UseCase2_LastName_Validation
     print(user.validation(name_pattern, first_name))
     last_name = input("Enter your Last Name: ")
     print(user.validation(name_pattern, last_name))
